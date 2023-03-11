@@ -37,6 +37,7 @@ COPY etc/caddy /app/etc/caddy
 COPY www /app/www
 
 COPY run.sh /app/run.sh
+RUN chmod +x /app/run.sh
 
 ###############################################################################
 # Run
